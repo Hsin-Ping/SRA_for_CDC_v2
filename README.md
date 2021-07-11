@@ -10,6 +10,6 @@ Required arguments:
 1. --runs RUNS - Input your csv file.
 2. --sra_dir SRA_DIR - Creat a temp_folder to save sra files.
 3. --log Log - Input your log file.
-4. --output - Create a folder to save all contigs.fa after assembly of all sra files.
+4. --output OUTPUT - Create a folder to save all contigs.fa after assembly of all sra files.
 5. --n N - Numbers of download sra files from NCBI in one times.
  
