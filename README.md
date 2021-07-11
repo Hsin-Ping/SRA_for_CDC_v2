@@ -19,5 +19,5 @@ After a run finised asseemly, you can see contigs.fa after assembly in output fi
 ### Step4 (Only when the runs were too many): Create a new table that remove the finished run with log file by RmRunInLog.py.
 1. --table TABLE - Input your csv file.
 2. --log Log - Input your log file.
-It will ouput a m_
+It will ouput a m_run_table.csv, which remove the runs recored in log file. Then you can input this file in --runs when running SRA_assembly.py next time. 
 
