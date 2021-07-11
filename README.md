@@ -7,16 +7,6 @@ Pipeline for download SRA file from NCBI SRA database and do assembly with shovi
 2. touch a log which is going to record the assebmly situation of each runs.
 ### Step2: Run SRA_assembly.py
 usage: Download avaliable runs from NCBI sra database and do assembly. 
-[-h] --runs RUNS\n
-     --sra_dir SRA_DIR\n 
-     --log LOG 
-     --output OUTPUT
-     [--assembly_dir ASSEMBLY_DIR]
-     [--tmpdir TMPDIR]
-     [--gsize GSIZE]
-     [--threads THREADS]
-     [--n N]                                                  
-
 optional arguments:
   -h, --help            show this help message and exit
   --runs RUNS           Big runinfo table of runs need to assembly.
