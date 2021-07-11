@@ -12,4 +12,9 @@ Required arguments:
 3. --log Log - Input your log file.
 4. --output OUTPUT - Create a folder to save all contigs.fa after assembly of all sra files.
 5. --n N - Numbers of download sra files from NCBI in one times.
+6. After a run finised asseemly, you can see contigs.fa after assembly in output file as [Run_id]_contig.fa.
+### Step3: Run SRA_assembly.py again if the network is shutdown or connect to NCBI is too slow.
+1. The log file you create will record which run is assembled completed or have other situations, for example: 'Run SRR00000 is ok.'
+2. When you run this SRA_assembly.py again and input the same log file, it will skip the files which already finished in last time.
  
+
