@@ -6,11 +6,9 @@ Pipeline for download SRA file from NCBI SRA database and do assembly with shovi
 1. A csv file with all NCBI Run_ID which you want to downlaod. The column name shoud be 'Run'.
 2. touch a log which is going to record the assebmly situation of each runs.
 ### Step2: Run SRA_assembly.py
-usage: Download avaliable runs from NCBI sra database and do assembly. 
-optional arguments:
-  -h, --help            show this help message and exit
-  --runs RUNS           Big runinfo table of runs need to assembly.
-  --sra_dir SRA_DIR     Temp folder to save runs.
+Required arguments:
+  --runs RUNS : input your csv file
+  --sra_dir SRA_DIR : creat a temp_folder to save sra files.
   --log LOG             The file to recored runs which finished assembly each
                         time.
   --output OUTPUT       Folder to save Contigs.fa after assembly of eah runs.
